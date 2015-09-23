@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<java version="1.6.0_65" class="java.beans.XMLDecoder"> 
+        <string>
+            This is a Penn State themed game in which you shoot down footballs to try to get the high score. Our game was inspired by Blockbreakers and Asteroids with the idea to create a game that was simple yet very much enjoyable. Please enjoy the game we made for IST 240.
+            This game was created By: Cameron Runyeon, Ryan Spatz, and Jonathan Cesari. 
+        </string>
+</java>
