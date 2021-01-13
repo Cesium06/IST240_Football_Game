@@ -10,10 +10,7 @@ import java.io.BufferedOutputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import javax.swing.JPanel;
-/**
- *
- * @author rspatz
- */
+
 
 public class introJPanel extends JPanel {
     XMLEncoder xe;
@@ -41,7 +38,7 @@ public class introJPanel extends JPanel {
         try {
             xe = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("options.xml")));
             }
-            catch(FileNotFoundException xx) {}
+            catch(FileNotFoundException xx) {xx.printStackTrace();}
 
             try {
 			 xe.writeObject(1);

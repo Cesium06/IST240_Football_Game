@@ -15,10 +15,7 @@ import javax.swing.JTextArea;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Cameron
- */
+
 public class instructionsJPanel extends JPanel implements ActionListener {
     JButton close;
     JTextArea instructions;

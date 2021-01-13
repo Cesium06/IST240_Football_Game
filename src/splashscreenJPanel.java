@@ -7,10 +7,6 @@ import javax.swing.*;
 * and open the template in the editor.
 */
 
-/**
-*
-* @author Cameron
-*/
 public class splashscreenJPanel extends JPanel {
     
     JTextField placeHolder;
@@ -19,9 +15,7 @@ public class splashscreenJPanel extends JPanel {
     
     public splashscreenJPanel() {
         setBackground(Color.black);
-        
-      
-   
+
         setLayout(new FlowLayout());
         
         image1 = new ImageIcon(getClass().getResource("nav_logo.jpg"));
